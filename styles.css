@@ -952,11 +952,25 @@ footer ul a {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 460px) {
+  .nav-bar img {
+    width: 75px;
+    height: 60px;
+    margin-right: 10px;
+  }
+
+  .nav-bar h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ffffff;
+  }
   .headerbody img {
     width: 340px;
   }
 
+  .nav-toggle {
+    font-size: 28px;
+  }
   .mobile-links {
     height: 0;
     overflow: hidden;
