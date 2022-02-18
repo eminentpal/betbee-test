@@ -397,7 +397,7 @@ ul {
 .map-box h2 {
   color: var(--dark);
   height: 50px;
-  width: 230px;
+  width: 260px;
   border-bottom: 2px solid rgb(228, 223, 223);
 }
 
@@ -429,7 +429,7 @@ ul {
 
 .map-box ul {
   margin-top: 20px;
-  width: 250px;
+  width: 260px;
   height: 170px;
   background-color: #daac99;
   list-style-type: square;
@@ -911,7 +911,7 @@ footer ul a {
   .map-box h2 {
     color: var(--dark);
     height: 50px;
-    width: 230px;
+    width: 260px;
     border-bottom: 2px solid rgb(228, 223, 223);
   }
 
@@ -943,7 +943,7 @@ footer ul a {
 
   .map-box ul {
     margin-top: 20px;
-    width: 250px;
+    width: 260px;
     height: 170px;
     background-color: #daac99;
     list-style-type: square;
