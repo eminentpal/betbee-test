@@ -904,14 +904,14 @@ footer ul a {
   }
 
   .map-box {
-    width: 250px;
+    width: 290px;
     height: 170px;
     color: #3f3df6;
   }
   .map-box h2 {
     color: var(--dark);
     height: 50px;
-    width: 260px;
+    width: 280px;
     border-bottom: 2px solid rgb(228, 223, 223);
   }
 
@@ -939,15 +939,17 @@ footer ul a {
     font-size: 1.05rem;
     margin-bottom: 20px;
     list-style: none;
+    font-weight: bold;
   }
 
   .map-box ul {
     margin-top: 20px;
-    width: 260px;
+    width: 280px;
     height: 170px;
     background-color: #daac99;
     list-style-type: square;
     padding: 10px 5px;
+    border: 1px solid rgb(187, 99, 99);
   }
 
   footer {
@@ -1031,6 +1033,7 @@ footer ul a {
 
   .nav-toggle {
     font-size: 28px;
+    border: 0;
   }
   .mobile-links {
     height: 0;
@@ -1175,7 +1178,8 @@ footer ul a {
   .support {
     width: 100%;
     height: 350px;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
+    margin-top: 60px;
   }
   .support h1 {
     text-align: center;
@@ -1184,7 +1188,7 @@ footer ul a {
 
   .support-content {
     width: 350px;
-    height: 350px;
+    height: 320px;
     margin: auto;
 
     margin-top: 20px;
