@@ -908,12 +908,12 @@ footer ul a {
     justify-content: space-around;
     margin: auto;
     flex-direction: column;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
   }
 
   .map-box {
     width: 280px;
-    height: 170px;
+    height: 150px;
     margin-top: 30px;
   }
   .map-box h2 {
@@ -958,7 +958,7 @@ footer ul a {
   .map-box ul {
     margin-top: 20px;
     width: 300px;
-    height: 170px;
+    height: 150px;
     list-style-type: square;
     padding: 0px 0px;
   }
