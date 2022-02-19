@@ -1125,12 +1125,12 @@ footer ul a {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
   }
   .feature-content-second img {
     width: 350px;
     height: 150px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     text-align: center;
   }
   .feature-image {
@@ -1375,7 +1375,7 @@ footer ul a {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   .feature-content-second img {
     width: 320px;
