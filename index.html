@@ -10,6 +10,7 @@
       type="text/css"
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="/your_path_to_version_6_files/css/all.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
     <link rel="icon" href="/images/logo2.png" type="image/png" />
@@ -90,14 +91,14 @@
       <div class="problems">
         <h1>Problems</h1>
         <div class="box-div">
-          <div class="box">
+          <div data-aos="flip-left" class="box">
             <h2><i class="fa fa-exclamation-circle"></i>No Strategy</h2>
             <p>
               The current market for prediction operates without providing users
               with any strategy support. It's a lot of guesswork.
             </p>
           </div>
-          <div class="box">
+          <div data-aos="flip-left" class="box">
             <h2><i class="fa fa-exclamation-circle"></i>Inaccurate Price</h2>
             <p>
               In the prediction market, an inaccurate price is always a
@@ -105,7 +106,7 @@
               locked in and the trading chart used by users in current apps.
             </p>
           </div>
-          <div class="box">
+          <div data-aos="flip-left" class="box">
             <h2>
               <i class="fa fa-exclamation-circle"></i>Centralized and Single
               chain
@@ -124,23 +125,23 @@
         <h1>Features</h1>
         <div class="feature-div">
           <div class="feature-content">
-            <div class="content">
+            <div data-aos="flip-left" class="content">
               <h2>Technical Strategy Based</h2>
               <p>
                 Strategy-enabled trading view that allows users to make
                 forecasts based on market data rather than guesswork.
               </p>
             </div>
-            <div class="feature-image">
+            <div data-aos="flip-left" class="feature-image">
               <img src="/images/data.svg" alt="feature" />
             </div>
           </div>
 
           <div class=" feature-content-second">
-            <div class="feature-image">
+            <div data-aos="flip-left" class="feature-image">
               <img src="/images/chart.svg" alt="feature" />
             </div>
-            <div class="content">
+            <div data-aos="flip-left" class="content">
               <h2>Multibet and Claim-free</h2>
               <p>
                 Users can make multiple bets on each prediction round, as well
@@ -153,23 +154,23 @@
           </div>
 
           <div class="feature-content">
-            <div class="content">
+            <div data-aos="flip-left" class="content">
               <h2>Multi Asset and Multi Chain</h2>
               <p>
                 It enabled users to predict the price of their favourite
                 cryptocurrencies. Supports multiple blockchains
               </p>
             </div>
-            <div class="feature-image">
+            <div data-aos="flip-left" class="feature-image">
               <img src="/images/multchain.svg" alt="feature" />
             </div>
           </div>
 
           <div class="feature-content">
-            <div class="feature-image">
+            <div data-aos="flip-left" class="feature-image">
               <img class="betbee-img" src="/images/beebet1.jpg" alt="feature" />
             </div>
-            <div class="content">
+            <div data-aos="flip-left" class="content">
               <h2>AI PredictionBot</h2>
               <p>
                 AI based auto prediction and an option to copy the prediction
@@ -188,7 +189,7 @@
 
       <div class="support">
         <h1>Supported Chains</h1>
-        <div class="support-content">
+        <div data-aos="flip-left" class="support-content">
           <div class="support-box">
             <svg
               class="h-8 mt-5"
@@ -245,7 +246,7 @@
       
       <div class="road"></div>
       <div class="map">
-        <div class="map-box">
+        <div data-aos="flip-left" class="map-box">
           <h2>Q1 2022</h2>
 
       
@@ -256,7 +257,7 @@
           </ul>
         
         </div>
-        <div class="map-box">
+        <div data-aos="flip-left" class="map-box">
           <h2>Q2 2022</h2>
           <ul>
             <li>Strategy based prediction <i class="fa fa-check" ></i> </li>
@@ -264,7 +265,7 @@
             <li>AI PredictionBot <i class="fa fa-check" ></i>  </li>
           </ul>
         </div>
-        <div class="map-box">
+        <div data-aos="flip-left" class="map-box">
           <h2>Q3 2022</h2>
 
           <ul>
@@ -275,12 +276,12 @@
       </div>
     </div>
     <footer>
-      <div class="footerbody">
+      <div data-aos="fade-in" class="footerbody">
         <div class="footer-content">
           <img src="/images/logo2.png" alt="betbee" />
           <span> © 2022 BetBee, All rights reserved.</span>
         </div>
-        <div>
+        <div  >
           <h4>Useful Links</h4>
           <ul>
             <li><a href="">Features</a></li>
@@ -300,5 +301,9 @@
       </div>
     </footer>
     <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
